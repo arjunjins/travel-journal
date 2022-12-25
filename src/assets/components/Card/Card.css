@@ -1,3 +1,44 @@
 .card {
-  background-color: red;
+  padding: 5%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.place-img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.map-logo {
+  width: 9px;
+}
+
+a {
+  font-weight: 400;
+  font-size: 11px;
+  text-decoration-line: underline;
+  color: #918e9b;
+}
+
+#placename {
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 0.17em;
+  color: #2b283a;
+}
+
+.location {
+  font-weight: 700;
+  font-size: 30px;
+  color: #2b283a;
+  margin-bottom: 20px;
 }

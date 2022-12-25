@@ -1,3 +1,15 @@
 .navbar {
-  background-color: aqua;
+  background-color: #f55a5a;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  box-shadow: 4px 5px 5px lightblue;
+}
+
+.logo {
+  width: 30px;
 }

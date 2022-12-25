@@ -1,9 +1,13 @@
 import "./App.css";
 import Card from "./assets/components/Card/Card";
 import Navbar from "./assets/components/Navbar/Navbar";
+import data from "../data";
 
 function App() {
   let size = screen.width;
+  const cardArray = data.map((item) => {
+    return <Card key={item.id} item={item} />;
+  });
   if (size < 1000) {
     return (
       <div className="App-not-working">
@@ -14,8 +18,7 @@ function App() {
     return (
       <div className="App">
         <Navbar />
-        <Card />
-        <Card />
+        {cardArray}
       </div>
     );
   }

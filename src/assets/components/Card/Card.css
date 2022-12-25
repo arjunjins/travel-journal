@@ -3,11 +3,16 @@
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
+  margin: 30px;
 }
 
 .place-img {
   max-height: 100%;
   max-width: 100%;
+}
+
+.img-container {
+  padding-right: 40px;
 }
 
 .header {
@@ -41,4 +46,17 @@ a {
   font-size: 30px;
   color: #2b283a;
   margin-bottom: 20px;
+}
+
+.dates {
+  font-weight: 700;
+  font-size: 14px;
+  color: #2b283a;
+  margin-bottom: 20px;
+}
+
+.desc {
+  font-weight: 400;
+  font-size: 11px;
+  color: #2b283a;
 }

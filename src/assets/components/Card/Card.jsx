@@ -15,24 +15,26 @@ const Card = (props) => {
 
   return (
     <div className="card">
-      <div className="img-container">
-        <img src={imageUrl} alt="" className="place-img" />
-      </div>
-      <div className="content-container">
-        <div className="header">
-          <img
-            src="../../../../public/map.png"
-            alt="map-logo"
-            className="map-logo"
-          />
-          <h4 id="placename">{location}</h4>
-          <a href={googleMapsUrl}>View on Google Maps</a>
+      <div className="row">
+        <div className="img-container col-5">
+          <img src={imageUrl} alt="" className="place-img" />
         </div>
-        <h1 className="location">{title}</h1>
-        <h3 className="dates">
-          {startDate} - {endDate}
-        </h3>
-        <p className="desc">{description}</p>
+        <div className="content-container col-7">
+          <div className="header">
+            <img
+              src="../../../../public/map.png"
+              alt="map-logo"
+              className="map-logo"
+            />
+            <h4 id="placename">{location}</h4>
+            <a href={googleMapsUrl}>View on Google Maps</a>
+          </div>
+          <h1 className="location">{title}</h1>
+          <h3 className="dates">
+            {startDate} - {endDate}
+          </h3>
+          <p className="desc">{description}</p>
+        </div>
       </div>
     </div>
   );

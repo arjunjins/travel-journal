@@ -1,8 +1,5 @@
 .card {
   padding: 4%;
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
   margin: 15px;
 }
 

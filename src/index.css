@@ -3,7 +3,14 @@ body {
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
-h4,h1,h3,p {
+h4,
+h1,
+h3,
+p {
   margin: 0;
 }
-
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: rgb(63, 63, 63);
+  }
+}

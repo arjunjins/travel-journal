@@ -22,7 +22,7 @@ const Card = (props) => {
         <div className="content-container col-7">
           <div className="header">
             <img
-              src="../../../../public/map.png"
+              src="../../../../map.png"
               alt="map-logo"
               className="map-logo"
             />
